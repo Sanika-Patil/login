@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Libre Baskerville', serif;
+    background-color: darkorchid;
+    }
+main{
+    display: flex;
+    justify-content: center;
+    color: ghostwhite;
+    align-items: center;
+    height: 100vh;
+}
+main form{
+    width: 20%;
+    background-color: rgb(229, 53, 176);
+    padding: 20px;
+    border-radius: 5px;
+}
+label,#user,#pass,a{
+    display: block;
+}
+label{
+    font-size: 95%;
+}
+#user,#pass{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+main form div{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 30%;
+    border: none;
+    border-radius: 5%;
+    margin: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+#can{
+background-color: chartreuse;
+color: black;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 20px ;
+    text-align: center;
+}
+#user::placeholder{
+    color: crimson;
+
+}
+#pass::placeholder{
+    color: crimson;
+}
+.fa-solid.fa-face-smile{
+    color: black;
+    font-size: 30px;
+    
+
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+#rp{
+    display: flex;
+    justify-content: space-between;
+}
